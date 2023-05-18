@@ -28,7 +28,7 @@ class TV:
         if self.on and 1 <= channel <= 120:
             self.channel = channel
         else: 
-            print("The current channels of this TV are only from 1 to 120.")
+            print("\033[1;31;40m The current channels of this TV are only from 1 to 120.")
 
     # def getVolume
     def getVolume(self):
@@ -39,7 +39,7 @@ class TV:
         if self.on and 1 <= volumeLevel <= 7:
             self.volumeLevel = volumeLevel
         else: 
-            print("The current volume level of this TV are only from 1 to 7.")
+            print("\033[1;31;40m The current volume level of this TV are only from 1 to 7.")
     
     # def channelUp
     def channelUp(self):
