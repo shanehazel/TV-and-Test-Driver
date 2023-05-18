@@ -12,7 +12,13 @@ class TV:
         self.on = False
 
     # def turn on
+    def turnOn(self):
+        self.on = True
+
     # def turn off
+    def turnOff(self):
+        self.on = False
+        
     # def getChannel
     # def setChannel
     # def getVolume
